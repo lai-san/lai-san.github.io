@@ -4,6 +4,23 @@
   <meta name="robots" content="noindex,nofollow">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="Content-Style-Type" content="text/css">
+
+      <script>
+        // Set your password here
+        const password = "donotenterthissite";
+        let enteredPassword = prompt("This is a test page, do not enter, password for owner only:");
+
+        // Check if the entered password is correct
+        if (enteredPassword === password) {
+            // Password is correct, show the content
+            document.body.style.display = 'block';
+        } else {
+            // Password is incorrect, redirect to an error page or show a message
+            alert("Incorrect password. You do not have access to this page.");
+            window.location.href = "https://www.google.com"; // Redirect to Google or another page
+        }
+    </script>
+  
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
