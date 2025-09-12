@@ -29,8 +29,21 @@
   <style type="text/css">
     p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
   </style>
-
 <script>
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+  'customname': '"Trey"'
+});
+  var customname2 = window.dataLayer[0].customname;
+  console.log(customname2);
+    var isVIP = true;
+    var work_order_submitted = false;
+  var test = sessionStorage.getItem("agreementCode");
+  var test2 = sessionStorage.agreementCode;
+  console.log(test);
+  console.log(test2);
+  console.log(document.referrer);
+  
     var isVIP = true;
     var work_order_submitted = true;
   var tstagain = ["fruits", ["apple, "pear"]],["veggies",["spinach","lettuce"]];
