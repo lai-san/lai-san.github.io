@@ -20,6 +20,14 @@
   window.dataLayer.push({
   'customname': '"Trey"'
 });
+
+window.dataLayer.push({
+  'event': 'event_name',
+  'category': 'category_name',
+  'action': 'action_name',
+  'label': 'label_name'
+});
+  
   var customname2 = window.dataLayer[0].customname;
   console.log(customname2);
     var isVIP = true;
