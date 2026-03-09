@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest>
+    <propertyId>779006</propertyId>
+    <propertyName>csob.cz</propertyName>
+    <initiatingUser>javier.nunez@kantar.com</initiatingUser>
+    <creationDate>Wed Feb 25 07:08:43 UTC 2026</creationDate>
+    <version>2.61.5</version>
+    <liveAppVersions>2.59.5,2.61.2,2.61.5</liveAppVersions>
+</manifest>
