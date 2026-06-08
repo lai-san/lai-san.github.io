@@ -1,0 +1,31 @@
+/* 1. Default styles (Desktop view) */
+body {
+    font-size: 18px;
+    background-color: white;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex; /* Sidebar and Main content side-by-side */
+}
+
+/* 2. Mobile View styles */
+/* This code triggers only if the screen width is 768px or narrower (iPhones and iPads) */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px; /* Slightly smaller text for small screens */
+    }
+
+    .container {
+        width: 100%; /* Take up the full width of the iPhone screen */
+        padding: 0 15px; /* Add safety padding on the left and right sides */
+        flex-direction: column; /* Stack the sidebar on top/bottom instead of side-by-side */
+    }
+
+    /* Hide elements that don't belong on mobile, or resize images */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
